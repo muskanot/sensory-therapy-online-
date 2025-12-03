@@ -1,107 +1,152 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Occupational Therapy | Sensory Therapy | Pediatric OT</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
-        header {
-            background-color: #4CAF50;
-            padding: 20px;
-            text-align: center;
-            color: white;
-            font-size: 28px;
-        }
-        .section {
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin: 10px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-        .button {
-            background: #4CAF50;
-            color: white;
-            padding: 10px 18px;
-            border-radius: 6px;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Occupational Therapy Sessions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #2d7d46;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    .hero {
+      background: #e8f5e9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 36px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; }
+    .hero button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #2d7d46;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 { color: #2d7d46; }
+
+    .services ul { line-height: 1.8; }
+
+    .contact-box {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button.submit-btn {
+      background: #2d7d46;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #2d7d46;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    Online Occupational Therapy Sessions
+  <div class="logo">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0NCA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHNpcmNsZSBjeD0iMjIiIGN5PSIyMiIgcj0iMjAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CjxwYXRoIGQ9Ik0yMiAxMiBMMyAyMiAyMiAzMiA0MSAyMiAyMiAxMiIgIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==" width="40" />
+    OT Therapy
+  </div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<div class="section">
-    <div class="card">
-        <h2>Welcome</h2>
-        <p>I provide online Occupational Therapy sessions including Pediatric OT, Sensory Therapy, Fine Motor Development, ADHD & Autism Support, and Developmental Delay Therapy.</p>
-        <p>Book an online consultation for kids & adults.</p>
-        <a href="#" class="button">Book a Session</a>
-    </div>
+<section class="hero">
+  <h1>Online Occupational Therapy Sessions</h1>
+  <p>Professional therapy for kids & adults — from the comfort of your home.</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScGYrG4T2k-book-form-link" target="_blank"><button>Book a Session</button></a>
+</section>
 
-    <div class="card">
-        <h2>Services</h2>
-        <ul>
-            <li>Pediatric Occupational Therapy</li>
-            <li>Sensory Integration Therapy</li>
-            <li>Fine Motor Skill Training</li>
-            <li>Handwriting Improvement Therapy</li>
-            <li>ADHD & Autism Support</li>
-            <li>Adult Occupational Therapy</li>
-        </ul>
-    </div>
+<section id="services" class="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Pediatric Occupational Therapy</li>
+    <li>Sensory Integration Therapy</li>
+    <li>Fine Motor Skill Development</li>
+    <li>Handwriting Improvement Therapy</li>
+    <li>ADHD & Autism Support</li>
+    <li>Adult Occupational Therapy</li>
+  </ul>
+</section>
 
-    <div class="card">
-        <h2>Contact</h2>
-        <p>📞 Phone: 91- 9773551487</p>
-        <p>📧 Email: sainimuskan913@gmail.com</p>
-        <p>🌐 Online Sessions Available</p>
-    </div>
-</div>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you have any questions or want to book a session, feel free to reach out.</p>
 
-<footer>
-    © 2025 Online Occupational Therapy Services
-</footer>
-<!-- Contact Section -->
-<section>
-    <h2>Contact Me</h2>
-    <p>If you have any questions or want to book a session, feel free to reach out:</p>
-
+  <div class="contact-box">
     <p><strong>Email:</strong> sainimuskan913@gmail.com</p>
     <p><strong>Phone:</strong> +91-9773551487</p>
 
     <h3>Send a Message</h3>
-    <form action="https://formspree.io/f/mvojzjqq" method="POST" style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
-        <input type="text" name="name" placeholder="Your Name" required style="padding: 10px;">
-        <input type="email" name="email" placeholder="Your Email" required style="padding: 10px;">
-        <textarea name="message" placeholder="Your Message" required style="padding: 10px;"></textarea>
-        <button type="submit" style="padding: 10px; background: #4CAF50; color: white; border: none; cursor: pointer;">Send Message</button>
+    <form action="https://formspree.io/f/mvojzjqq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
     </form>
+  </div>
+</section>
 
-
-
-
-
+<footer>
+  © 2025 Online Occupational Therapy Services
+</footer>
 
 </body>
 </html>
