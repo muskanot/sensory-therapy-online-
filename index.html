@@ -93,9 +93,66 @@
       padding: 15px;
       margin-top: 40px;
     }
-  </style>
+  </style><style>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2d7d46;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+</style>
+
 </head>
 <body>
+  <!-- NAVBAR START -->
+<nav class="navbar">
+  <div class="logo">Muskan OT</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="program.html">Program</a></li>
+    <li><a href="Why choose me.html">Why choose me</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<!-- NAVBAR END -->
+
 
 <header>
   <div class="logo">
