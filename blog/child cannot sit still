@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO META TAGS -->
+  <title>My Child Cannot Sit Still – Is It Normal? | Occupational Therapy Guide</title>
+  <meta name="description" content="Is your child always moving and unable to sit still? Learn what is normal, warning signs, and when to consult an occupational therapist.">
+  <meta name="keywords" content="child cannot sit still, hyperactive child, occupational therapy, child behavior, sensory processing, parenting tips">
+  <meta name="author" content="Your Name">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+
+    h1 {
+      font-family: 'Merriweather', serif;
+      font-size: 2.2rem;
+      color: #1a2a44;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #2c3e50;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    .highlight {
+      background: #eaf4ff;
+      padding: 15px;
+      border-left: 4px solid #4a90e2;
+      margin: 20px 0;
+    }
+
+    .cta {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>My Child Cannot Sit Still – Is It Normal or Something to Worry About?</h1>
+
+  <p>As a parent, you may often wonder: <strong>“Why can’t my child sit still even for a few minutes?”</strong> Whether it’s during meals, homework, or school time, constant movement can be confusing and sometimes stressful.</p>
+
+  <p>The good news is — in many cases, this behavior can be completely normal. However, sometimes it may indicate something that needs attention.</p>
+
+  <div class="highlight">
+    Every child has a different energy level, but understanding what is typical vs concerning is important.
+  </div>
+
+  <h2>Is It Normal for Children to Be Always Active?</h2>
+
+  <p>Yes, especially in younger children. Kids naturally have high energy levels and shorter attention spans.</p>
+
+  <ul>
+    <li>Preschoolers often move constantly</li>
+    <li>They explore their environment through movement</li>
+    <li>Sitting still for long periods is difficult for them</li>
+  </ul>
+
+  <p>So if your child is active but still able to focus sometimes, follow instructions, and engage in play — it is usually normal.</p>
+
+  <h2>When Should You Be Concerned?</h2>
+
+  <p>You may need to look deeper if your child:</p>
+
+  <ul>
+    <li>Cannot sit even for short activities</li>
+    <li>Gets frequent complaints from school</li>
+    <li>Has difficulty completing tasks</li>
+    <li>Seems constantly restless or impulsive</li>
+    <li>Struggles with daily routines</li>
+  </ul>
+
+  <div class="highlight">
+    If this behavior is affecting daily life, it’s worth understanding the underlying reason.
+  </div>
+
+  <h2>Possible Reasons Why Your Child Cannot Sit Still</h2>
+
+  <h3>1. High Energy Levels</h3>
+  <p>Some children are naturally more active than others. This is part of their personality.</p>
+
+  <h3>2. Attention Difficulties</h3>
+  <p>Difficulty focusing can make children appear restless or constantly moving.</p>
+
+  <h3>3. Sensory Needs</h3>
+  <p>Some children need more movement to feel regulated. This is often linked to sensory processing differences.</p>
+
+  <h2>Simple Strategies You Can Try at Home</h2>
+
+  <ul>
+    <li>Give regular movement breaks</li>
+    <li>Use short activity intervals (10–15 minutes)</li>
+    <li>Include physical play in daily routine</li>
+    <li>Create a structured schedule</li>
+    <li>Reduce screen time</li>
+  </ul>
+
+  <h2>When to Consult an Occupational Therapist?</h2>
+
+  <p>If your child’s inability to sit still is impacting learning, behavior, or daily activities, an occupational therapist can help identify the root cause and provide targeted strategies.</p>
+
+  <div class="cta">
+    <p><strong>Worried about your child’s behavior?</strong></p>
+    <p>Get expert guidance from a qualified Occupational Therapist.</p>
+    <p><a href="#">Contact Now</a></p>
+  </div>
+
+  <footer>
+    <p>© 2026 Your Occupational Therapy Practice | All Rights Reserved</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
