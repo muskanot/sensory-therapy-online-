@@ -150,6 +150,14 @@ body {
 
 .form-float-btn:hover {
   background: #084298;
+  footer a {
+  color: white;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #ffd166;
+}
 }
 
 .instagram-float {
