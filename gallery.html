@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos & Videos Gallery | Online Occupational Therapy</title>
+    <style>
+        /* Base Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #6c757d;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        /* Gallery Grid Layout */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        /* Card Styling */
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 12px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        /* Responsive Video Container */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Photo Styling */
+        .photo-card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card p {
+            text-align: center;
+            font-weight: 600;
+            margin-top: 15px;
+            color: #495057;
+            font-size: 0.95rem;
+        }
+
+        /* Call To Action Section */
+        .cta-section {
+            text-align: center;
+            background: #e9f5ff;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Photos & Videos Gallery</h1>
+        <p class="subtitle">Take a look at our online occupational therapy guidance, home plan activities, and helpful tips.</p>
+
+        <!-- YouTube Videos Section -->
+        <h2>Helpful OT Guidance Videos</h2>
+        <div class="gallery-grid">
+            
+            <!-- Video 1 -->
+            <div class="card">
+                <div class="video-container">
+                    <!-- Replace YOUR_VIDEO_ID_1 with your actual YouTube video ID -->
+                    <iframe src="https://youtube.com/shorts/XoQ5B0PCj4E?feature=share></iframe>
+                </div>
+                <p>ABOUT ONLINE OCCUPATIONAL THERAPY</p>
+            </div>
+                      <!-- Video 2 -->
+            <div class="card">
+                <div class="video-container">
+                    <!-- Replace YOUR_VIDEO_ID_1 with your actual YouTube video ID -->
+                    <iframe src="https://youtube.com/shorts/l6CHqBV8KHM?feature=share></iframe>
+                </div>
+                <p>ACTIVITIES TO REDUCE TOE WALKING</p>
+            </div>
+                      <!-- Video 3-->
+            <div class="card">
+                <div class="video-container">
+                    <!-- Replace YOUR_VIDEO_ID_1 with your actual YouTube video ID -->
+                    <iframe src="https://youtube.com/shorts/3XlCCmX6lhw?feature=share></iframe>
+                </div>
+                <p>EXECUTIVE DYSFUNCTION</p>
+            </div>
+
+           
+                      
+
+        <!-- Call to Action -->
+        <div class="cta-section">
+            <h3>Need a Personalized Home Plan for Your Child?</h3>
+            <p>Connect with us directly for a 15-minute free guidance call.</p>
+            <!-- WHATSAPP NUMBER -->
+            <a href="<a href="https://wa.me/919810765977" class="cta-button" target="_blank">Chat on WhatsApp</a>
+        </div>
+    </div>
+
+</body>
+</html>
