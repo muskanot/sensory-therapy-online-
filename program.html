@@ -6,7 +6,7 @@
 
 <title>Online Occupational Therapy Programs & Packages | Pediatric OT</title>
 
-<meta name="description" content="Explore online pediatric occupational therapy programs including consultation, per-session therapy and affordable OT packages for children with sensory, motor, ADHD and developmental needs.">
+<meta name="description" content="Explore online pediatric occupational therapy programs including individual sessions, 1-month & 3-month therapy packages, and home plans for child development.">
 
 <style>
 /* ===== GLOBAL STYLES ===== */
@@ -15,35 +15,6 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background-color: #f4f9ff;
   color: #333;
-  .program-card {
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-  background: #fff;
-}
-
-.program-card ul {
-  padding-left: 20px;
-}
-
-.program-card h3 {
-  color: #1f4fb2;
-}
-
-.program-disclaimer {
-  margin-top: 40px;
-  padding: 20px;
-  background: #f9f9f9;
-  border-top: 2px solid #ccc;
-  font-size: 14px;
-}
-
-.program-disclaimer h4 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
 }
 
 /* ===== NAVBAR ===== */
@@ -55,6 +26,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -98,7 +70,7 @@ nav ul li a:hover {
 /* ===== PROGRAM CARDS ===== */
 .program-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
 }
 
@@ -108,12 +80,16 @@ nav ul li a:hover {
   padding: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   border-top: 6px solid #0b5ed7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .program-card h2 {
   color: #0b5ed7;
   font-size: 22px;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .program-card p {
@@ -121,8 +97,14 @@ nav ul li a:hover {
   line-height: 1.6;
 }
 
+.program-card ul {
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .price {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   color: #198754;
   margin: 15px 0;
@@ -137,9 +119,28 @@ nav ul li a:hover {
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
 }
 .button:hover {
   background-color: #084298;
+}
+
+/* ===== DISCLAIMER & POLICY ===== */
+.program-disclaimer {
+  margin-top: 40px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 5px solid #0b5ed7;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.program-disclaimer h3 {
+  margin-top: 0;
+  color: #0b5ed7;
 }
 
 /* ===== FOOTER ===== */
@@ -162,13 +163,14 @@ footer {
     <li><a href="index.html">Home</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="program.html">Programs</a></li>
-    <li><a href="Why choose me.html">Why choose me</a></li>
-    <a href="contact.html">contact</a>
-  </div>
+    <li><a href="Why choose me.html">Why Choose Me</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
+
 <!-- HEADER -->
 <div class="page-header">
-  <h1>Occupational Therapy Programs</h1>
+  <h1>Occupational Therapy Programs & Pricing</h1>
   <p>Structured, evidence-based online OT programs designed specially for children and parents</p>
 </div>
 
@@ -177,102 +179,98 @@ footer {
 
   <div class="program-grid">
 
-    <!-- CONSULTATION -->
+    <!-- HOME PLAN ONLY -->
     <div class="program-card">
-      <h2>Initial Online Consultation</h2>
-      <p>
-        A detailed assessment session to understand your child’s strengths, challenges,
-        sensory needs, motor skills and daily functioning.
-      </p>
-      <p class="price">₹800 / 45 minutes</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" 
-   class="button" 
-   target="_blank">
-   Book Consultation
-</a>
-      <div class="program-card">
-  <h3>Comprehensive Child Assessment & Report</h3>
-  <p>
-    A detailed occupational therapy assessment designed to evaluate your child’s overall development and functional abilities.
-  </p>
+      <div>
+        <h2>Home Plan Only</h2>
+        <p>A customized therapy activity plan designed specifically for parents to execute at home based on the child's individual needs.</p>
+      </div>
+      <div>
+        <p class="price">₹1,000</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Book Plan</a>
+      </div>
+    </div>
 
-  <ul>
-    <li>Sensory processing and regulation</li>
-    <li>Fine and gross motor skills</li>
-    <li>Attention, behavior, and emotional regulation</li>
-    <li>Daily living and functional independence skills</li>
-  </ul>
-
-  <p>
-    After the assessment, parents will receive a <strong>comprehensive written report</strong> outlining the child’s strengths, challenges, and therapy recommendations.
-  </p>
-
-  <p><strong>Fee:</strong> ₹1000</p>
-  <p><strong>Duration:</strong> 45–60 minutes</p>
-  <p><strong>Report:</strong> Soft copy (PDF)</p>
-
-  <a href="#" class="btn btn-primary">Book Assessment</a>
-</div>
-
-
-
-    <!-- PER SESSION -->
+    <!-- INDIVIDUAL SESSION -->
     <div class="program-card">
-      <h2>Per Session Therapy</h2>
-      <p>
-        Individualized occupational therapy sessions focusing on sensory integration,
-        fine motor skills, attention, behavior regulation and functional independence.
-      </p>
-      <p class="price">₹700 / session</p>
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" 
-   class="button" 
-   target="_blank">
-   Book Consultation
-</a>
+      <div>
+        <h2>Individual Session</h2>
+        <p>Single-session online therapy focusing on immediate motor, sensory, or behavioral goals.</p>
+        <p><strong>Frequency:</strong> 1 Session / Day</p>
+      </div>
+      <div>
+        <p class="price">₹400 / session</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Book Session</a>
+      </div>
+    </div>
 
-    <!-- PACKAGE 1 -->
+    <!-- 1 MONTH (ALTERNATE DAYS) -->
     <div class="program-card">
-      <h2>Monthly OT Package</h2>
-      <p>
-        Includes 8 structured therapy sessions with goal tracking, home programs
-        and parent guidance for continuous progress.
-      </p>
-      <p class="price">₹5,200 / month</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" 
-   class="button" 
-   target="_blank">
-   Book Consultation
-</a>
+      <div>
+        <h2>1 Month Package (Lite)</h2>
+        <p>Includes 12 guided therapy sessions along with regular home plan tracking.</p>
+        <p><strong>Schedule:</strong> Alternate Days (12 Sessions total)</p>
+      </div>
+      <div>
+        <p class="price">₹2,500 / month</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Select Package</a>
+      </div>
+    </div>
 
-    <!-- PACKAGE 2 -->
+    <!-- 1 MONTH (MON - SAT) -->
     <div class="program-card">
-      <h2>Intensive Skill Program</h2>
-      <p>
-        Designed for children requiring focused intervention for handwriting,
-        sensory processing, ADHD or developmental delays.
-      </p>
-      <p class="price">₹9,500 / 3 months</p>
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" 
-   class="button" 
-   target="_blank">
-   Book Consultation
-</a
+      <div>
+        <h2>1 Month Package (Regular)</h2>
+        <p>Comprehensive daily therapy program for consistent progress and skill development.</p>
+        <p><strong>Schedule:</strong> Monday to Saturday (26 Sessions total)</p>
+      </div>
+      <div>
+        <p class="price">₹3,000 / month</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Select Package</a>
+      </div>
+    </div>
+
+    <!-- 3 MONTHS (ALTERNATE DAYS) -->
+    <div class="program-card">
+      <div>
+        <h2>3 Months Package (Lite)</h2>
+        <p>Long-term structured plan focusing on posture, sensory needs, and speech readiness.</p>
+        <p><strong>Schedule:</strong> Alternate Days (36 Sessions total)</p>
+      </div>
+      <div>
+        <p class="price">₹3,500 / 3 months</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Select Package</a>
+      </div>
+    </div>
+
+    <!-- 3 MONTHS (MON - SAT) -->
+    <div class="program-card">
+      <div>
+        <h2>3 Months Package (Regular)</h2>
+        <p>Intensive therapy program for significant developmental achievements and posture correction.</p>
+        <p><strong>Schedule:</strong> Monday to Saturday (78 Sessions total)</p>
+      </div>
+      <div>
+        <p class="price">₹4,000 / 3 months</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" class="button" target="_blank">Select Package</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TERMS & POLICY DISCLAIMER -->
   <div class="program-disclaimer">
-  <h4>Disclaimer</h4>
-  <p>
-    All consultations and assessments are confirmed only after advance payment.
-    Once a therapy plan or package is selected and payment is completed, 
-    <strong>no refunds will be provided under any circumstances</strong>.
-  </p>
-</div>
-
-
+    <h3>Payment Terms & Rescheduling Policy</h3>
+    <ul>
+      <li><strong>Advance Payment:</strong> All package payments must be made online prior to starting the therapy sessions.</li>
+      <li><strong>Compensatory Sessions:</strong> If a session is missed due to health reasons or travel, it will be rescheduled on <strong>Sunday</strong> to ensure complete session utilization without any financial loss.</li>
+    </ul>
   </div>
 
 </section>
 
 <footer>
-  © 2025 Online Pediatric Occupational Therapy | All Rights Reserved
+  © 2026 Online Pediatric Occupational Therapy | All Rights Reserved
 </footer>
 
 </body>
