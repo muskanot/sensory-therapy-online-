@@ -1,53 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- Main Homepage: Dr. Muskan Pediatric Occupational Therapy -->
   <url>
-    <loc>https://muskanot.github.io/sensory-therapy-online-/</loc>
-    <lastmod>2026-01-11</lastmod>
-    <priority>1.0</priority>
+    <loc>https://muskanot.github.io/sensory-therapy-online-//</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
   </url>
-  <url>
-  <loc>https://muskanot.github.io/sensory-therapy-online/online-occupational-therapy-for-children.html</loc>
-</url>
-  <url>
-  <loc>https://muskanot.github.io/sensory-therapy-online/signs-your-child-needs-occupational-therapy.html</loc>
-</url>
-  <url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/blog/blog-autism-ot.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <loc>https://muskanot.github.io/sensory-therapy-online/blog/blog-child-cannot-sit-still</loc>
-    <lastmod>2026-05-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <loc>https://muskanot.github.io/sensory-therapy-online/blog/blog-spd-and-its-signs</loc>
-    <lastmod>2026-04-30</lastmod>
-    <priority>0.8</priority>
-  </url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/gallery.html</loc>
-    <lastmod>2026-07-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/blog/delayedmilestones.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/<url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/blog/delayedmilestones.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <priority>0.8</priority>
-  </url>
-      <url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/<url>
-    <loc>https://muskanot.github.io/sensory-therapy-online/blog/hand flapping.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <priority>0.8</priority>
-  </url>
-    
 
+  <!-- Core Services: Sensory Integration, Autism, Milestone Delay, Handwriting -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#services</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
 
+  <!-- Transparent Consultation & Therapy Packages (₹400 - ₹4,000) -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#packages</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Service Areas: Ghaziabad, Noida, Indirapuram, Vaishali, Kaushambi, Greater Noida -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#service-areas</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Clinical Pediatric OT Blogs & Insights (All 6 Topics) -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#blogs</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- About Dr. Muskan (BOT, MOT Neurosciences, 5+ yrs exp) -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#about</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Frequently Asked Questions -->
+  <url>
+    <loc>https://muskanot.github.io/sensory-therapy-online-/#faq</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
 
 </urlset>
