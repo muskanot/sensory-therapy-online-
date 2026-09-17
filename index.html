@@ -1,420 +1,1004 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="bj5rQv3N8GSc-sTBqZ7uuMH0oEBHqq83A8IssiX3W_w"/>
-  <title>Online Occupational Therapy for Kids | Pediatric OT Sessions</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Muskan (OT) | Online Pediatric Occupational Therapy Consultation</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Online pediatric occupational therapy by Dr. Muskan (BOT, MOT Neuroscience, 5+ yrs experience). Sensory integration, autism, ADHD, milestone delays & handwriting across Ghaziabad, Noida & online." />
+  <meta name="keywords" content="online pediatric occupational therapy, pediatric OT consultation, Dr Muskan OT, occupational therapy ghaziabad, OT raj nagar extension, indirapuram child therapist, sensory processing disorder online, autism therapy ghaziabad, delayed milestones in children, hand flapping kids, sensory processing disorder SPD, noida pediatric OT, crossing republic OT" />
+  <meta name="author" content="Dr. Muskan (BOT, MOT Neuroscience - Occupational Therapist)" />
 
-  <!-- SEO META -->
-  <meta name="description" content="Expert online pediatric occupational therapy services for children with sensory issues, ADHD, autism, fine motor delay & developmental delay. Personalized OT programs by Muskan (BOT, MOT).">
-  <meta name="keywords" content="online occupational therapy, pediatric occupational therapy, sensory therapy online, OT for kids, ADHD OT, autism occupational therapy">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dr. Muskan (OT) | Online Pediatric Occupational Therapy" />
+  <meta property="og:description" content="Specialized neuroscience-based online pediatric occupational therapy with Dr. Muskan. Transparent packages from ₹400 to ₹4,000." />
+  <meta property="og:site_name" content="Dr. Muskan Pediatric Tele-OT" />
 
-  <!-- GOOGLE FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+  <!-- Fonts & Tailwind CSS CDN for 100% standalone execution -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Quicksand:wght@600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['Quicksand', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #f5f7fb;
-      color: #333;
-    }
-
-    /* NAVBAR */
-    nav {
-      background: #1f3c88;
-      padding: 15px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav h2 {
-      color: #fff;
-      margin: 0;
-    }
-
-    nav a {
-      color: #fff;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    /* HERO */
-    .hero {
-      background: linear-gradient(to right, #1f3c88, #4a6fdc);
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 34px;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      font-size: 18px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      background: #ffb703;
-      color: #000;
-      padding: 12px 25px;
-      border-radius: 30px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    /* SECTION */
-    .section {
-      padding: 50px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .section h2 {
-      color: #1f3c88;
-      margin-bottom: 15px;
-    }
-
-    /* ABOUT OT */
-    .about-ot p {
-      line-height: 1.8;
-      font-size: 16px;
-    }
-
-    /* ABOUT ME */
-    .about-me {
-      display: flex;
-      gap: 30px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .about-me img {
-      width: 220px;
-      border-radius: 12px;
-    }
-
-    /* WHY CHOOSE */
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: #fff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-
-    /* FOOTER */
-    footer {
-      background: #1f3c88;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-    }
-
-    
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    h1, h2, h3, h4, .font-heading { font-family: 'Quicksand', sans-serif; }
   </style>
 </head>
-  <!-- Google Form Floating Button -->
-<a 
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdyMuUWPi9CalqtgPubW4lsFG9orA9VaGuRTTgtri1zzvFpuw/viewform?usp=header" 
-  class="form-float-btn" 
-  target="_blank"
->
-Book Appointment
-</a>
-  <a href="https://wa.me/919810765977?text=Hello!%20I%20have%20a%20query." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-  <svg viewBox="0 0 32 32" class="whatsapp-icon">
-    <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825.737 5.607 2.137 8.048l-2.137 7.952 8.137-2.131c2.394 1.305 5.094 1.994 7.863 1.994 8.837 0 16-7.163 16-16s-7.163-16-16-16zm8.256 22.844c-.344.969-1.706 1.775-2.65 1.931-.638.106-1.469.194-4.3-.981-3.619-1.506-5.938-5.2-6.119-5.444-.175-.238-1.45-1.925-1.45-3.669 0-1.744.9-2.594 1.225-2.944.325-.35.713-.438.95-.438.238 0 .475 0 .681.013.219.006.513-.081.8-.775.3-.725 1.025-2.5 1.113-2.681.088-.188.15-.4-.013-.725-.163-.325-.35-.525-.563-.775-.213-.25-.45-.556-.644-.75-.213-.213-.444-.044-.606.038-.163.081-.681.256-1.481.956-.613.538-1.019 1.175-1.138 1.381-.119.206-2.288 3.044-2.288 5.806s1.431 5.431 1.631 5.7c.2.269 2.813 4.294 6.806 6.019 1 .431 1.781.688 2.388.881 1.006.319 1.925.275 2.65.169.806-.119 2.481-1.013 2.831-1.994.35-.981.35-1.825.244-1.994-.1-.175-.381-.275-.806-.481z"/>
-  </svg>
-</a>
+<body class="bg-amber-50/20 text-slate-800 antialiased selection:bg-rose-500 selection:text-white">
 
-<style>
-.whatsapp-float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.whatsapp-float:hover {
-  background-color: #128c7e;
-  transform: scale(1.1);
-}
-.whatsapp-icon {
-  width: 35px;
-  height: 35px;
-  fill: white;
-}
-</style>
-
-
-<body>
-
-<!-- NAV -->
-<nav>
-  <h2>OT With Muskan</h2>
-  <div>
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="program.html">Program</a>
-    <a href="Why choose me.html">Why choose me</a>
-    <li><a href="blog/signs-your-child-needs-occupational-therapy.html">Blog</a></li>
-    <a href="FAQ.html">FAQ</a>
-    <li><a href="gallery.html">Gallery</a></li>
-    <nav>
-    <ul>
-        
-</nav>
-    <a href="contact.html">contact</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <h1>Online Occupational Therapy for Children</h1>
-  <p>
-    Welcome to our Online Occupational Therapy Services, where we provide professional
-    and compassionate care for children and adults. 
-    If you are searching for the best occupational therapist in Gzb-Delhi NCR, you are in the right place.
-    We offer affordable online OT sessions that you can attend from the comfort of your home.
-    Our goal is to help individuals improve their daily living skills, independence, and overall quality of life through expert occupational therapy support.
-    Our online occupational therapy consultation is designed to support parents and individuals with personalized therapy plans.
-    We assess each client’s needs and create customized strategies for effective improvement.
-    We are known for providing top-rated pediatric occupational therapy, focusing on early intervention, skill development, and functional independence for children.
-  </p>
-  <a href="program.html" class="btn">Book Online Session</a>
-</section>
-
-<!-- ABOUT OT -->
-<section class="section about-ot">
-  <h2>What is Online Occupational Therapy?</h2>
-  <p>
-    Online Occupational Therapy is a professional healthcare service that helps
-    children develop essential life skills from the comfort of their home.
-    Through structured virtual sessions, children with sensory processing
-    difficulties, ADHD, autism, developmental delay or fine motor challenges
-    receive personalized therapy programs.
-  </p>
-  <p>
-    Online OT allows parents to actively participate in therapy, understand
-    their child’s needs and continue therapeutic activities at home. It is
-    safe, effective and research-based for pediatric cases.
-  </p>
-</section>
-
-<!-- ABOUT ME SHORT -->
-<section class="section">
-  <h2>About Me</h2>
-  <div class="about-me">
-    <img src="profile.jpg" alt="Pediatric Occupational Therapist">
-    <p>
-      I am Muskan, a Pediatric Occupational Therapist (BOT, MOT) with 3 years
-      of experience working with children having sensory issues, ADHD, autism
-      and developmental delays. I focus on child-friendly, goal-oriented and
-      family-centered therapy approaches.
-    </p>
-  </div>
-</section>
-
-  <!-- SERVICES & PROGRAMS PREVIEW -->
-<section class="section home-preview">
-  <div class="container">
-
-    <h2 class="center-heading">Our Services & Programs</h2>
-    <p class="center-text">
-      Professional online occupational therapy services and structured programs
-      designed especially for children and parents.
-      Online Occupational Therapy for Kids
-      We specialize in online occupational therapy for kids, helping children develop:
-      1. Fine motor skills
-      2. Gross motor coordination
-      3. Sensory processing
-      4. Self-care and daily activities
-      Our therapy sessions are interactive, child-friendly, and guided by experienced professioals.
-    </p>
-
-    <div class="preview-grid">
-
-      <!-- SERVICES -->
-      <div class="preview-card">
-        <h3>Occupational Therapy Services</h3>
-        <ul>
-          <li>Pediatric Occupational Therapy</li>
-          <li>Sensory Integration Therapy</li>
-          <li>Fine Motor & Handwriting Skills</li>
-          <li>Autism & ADHD Support</li>
-        </ul>
-        <a href="services.html" class="btn-primary">View Services</a>
+  <!-- Top Announcement Bar -->
+  <aside aria-label="Announcement" class="bg-gradient-to-r from-rose-500 via-amber-500 to-teal-500 text-white text-xs font-bold py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="bg-white/25 px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase">Direct WhatsApp</span>
+        <span>Have questions? WhatsApp Dr. Muskan directly at <a href="https://wa.me/919810765977" target="_blank" rel="noopener noreferrer" class="underline font-extrabold hover:text-amber-100">+91 9810765977</a></span>
       </div>
-      
-      <!-- PROGRAMS -->
-      <div class="preview-card">
-        <h3>Therapy Programs</h3>
-        <ul>
-          <li>45-Minute Online Consultation</li>
-          <li>Skill Development Programs</li>
-          <li>Handwriting Improvement Program</li>
-          <li>Parent-Guided Home Programs</li>
-        </ul>
-        <a href="program.html" class="btn-primary">View Programs</a>
+      <div class="flex items-center gap-3 text-xs">
+        <a href="https://www.instagram.com/theneuroot.muskan?igsh=MW1kYzZ6bTVja2Zhag==" target="_blank" rel="noopener noreferrer" class="hover:underline">Instagram: @theneuroot.muskan</a>
+        <span class="opacity-50">•</span>
+        <a href="https://youtube.com/@theneuroot.muskan?si=TvSB9oTRVSnX54U0" target="_blank" rel="noopener noreferrer" class="hover:underline">YouTube</a>
       </div>
-      <div style="margin-top:18px;">
-        <a href="https://www.instagram.com/theneuroot.muskan/"
-   target="_blank"
-   class="instagram-float">
-
-   <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-        alt="Instagram"
-        style="width:20px; vertical-align:middle; margin-right:8px;">
-
-   Follow on Instagram
-</a>
-  <a href="https://www.instagram.com/theneuroot.muskan?igsh=MW1kYzZ6bTVja2Zhag" target="_blank"
-     style="color:white; text-decoration:none; font-weight:500; font-size:16px;">
-     📸 Follow us on Instagram @theneuroot.muskan
-  </a>
-</div>
-
     </div>
+  </aside>
 
-  
+  <!-- Main Navigation -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-amber-100 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-rose-500 to-amber-500 text-white flex items-center justify-center font-heading font-extrabold text-xl shadow-md group-hover:scale-105 transition-transform">
+            DM
+          </div>
+          <div>
+            <span class="font-heading font-extrabold text-lg sm:text-xl text-slate-900 block leading-tight">
+              Dr. Muskan <span class="text-rose-600">(OT)</span>
+            </span>
+            <span class="text-xs text-slate-500 font-semibold block">
+              Pediatric Neuro-OT • BOT, MOT Neurosciences
+            </span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-bold text-slate-700">
+          <a href="#services" class="hover:text-rose-600 transition-colors">Services</a>
+          <a href="#packages" class="hover:text-rose-600 transition-colors">Pricing Packages</a>
+          <a href="#service-areas" class="hover:text-rose-600 transition-colors">Areas Covered</a>
+          <a href="#blogs" class="hover:text-rose-600 transition-colors">Blogs & Insights</a>
+          <a href="#about" class="hover:text-rose-600 transition-colors">About Dr. Muskan</a>
+          <a href="#faq" class="hover:text-rose-600 transition-colors">FAQs</a>
+        </nav>
+
+        <div class="flex items-center gap-2.5">
+          <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20would%20like%20to%20inquire%20about%20online%20pediatric%20OT%20consultation." target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 font-bold text-xs transition-colors">
+            <span>WhatsApp Query</span>
+          </a>
+          <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-gradient-to-r from-rose-500 via-amber-500 to-teal-500 hover:from-rose-600 hover:to-teal-600 text-white font-extrabold text-xs shadow-md transition-all">
+            <span>Book Consultation</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-12 sm:py-20 overflow-hidden bg-gradient-to-b from-amber-50/40 via-white to-rose-50/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 bg-white border border-rose-200 shadow-xs px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold text-rose-700">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>Online Pediatric Occupational Therapy & Neuro-Rehab</span>
+          </div>
+
+          <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Where Science Meets Play: <br class="hidden sm:inline" />
+            <span class="bg-gradient-to-r from-rose-600 via-amber-600 to-teal-600 bg-clip-text text-transparent">Online Pediatric Consultation</span> <br />
+            with Dr. Muskan (OT)
+          </h1>
+
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs sm:text-sm font-bold">
+            <span class="bg-amber-100 text-amber-900 px-3 py-1 rounded-xl border border-amber-300">BOT (Bachelor in Occupational Therapy)</span>
+            <span class="bg-indigo-100 text-indigo-900 px-3 py-1 rounded-xl border border-indigo-300">MOT (Master in Neurosciences - OT)</span>
+            <span class="bg-emerald-100 text-emerald-900 px-3 py-1 rounded-xl border border-emerald-300">5+ Years Experience</span>
+            <a href="#service-areas" class="bg-rose-100 text-rose-900 px-3 py-1 rounded-xl border border-rose-300 hover:bg-rose-200 transition-colors">Ghaziabad, Noida & Global Online</a>
+          </div>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            Specialized evidence-based tele-rehabilitation for children with <strong>Sensory Processing Differences</strong>, 
+            <strong>Autism & ADHD</strong>, <strong>Fine Motor & Handwriting Fatigue</strong>, and 
+            <strong>Developmental Milestone Delays</strong>. Transparent packages starting from <strong class="text-rose-600 font-extrabold">₹400</strong> (1-on-1 therapy) & <strong class="text-rose-600 font-extrabold">₹800</strong> (video consultation).
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm sm:text-base font-extrabold text-white bg-gradient-to-r from-rose-500 via-amber-500 to-teal-500 hover:from-rose-600 hover:to-teal-600 rounded-2xl shadow-md transition-all active:scale-95">
+              <span>Book on Official Google Form</span>
+              <span>→</span>
+            </a>
+
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20would%20like%20to%20inquire%20about%20online%20pediatric%20OT%20consultation." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm sm:text-base font-extrabold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 rounded-2xl transition-all">
+              <span>WhatsApp: 9810765977</span>
+            </a>
+          </div>
+
+          <div class="pt-1 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs">
+            <span class="font-bold text-slate-700">Quick Packages:</span>
+            <span class="bg-rose-50 text-rose-700 px-2.5 py-1 rounded-lg border border-rose-200 font-bold">Video Consult: ₹800</span>
+            <span class="bg-amber-50 text-amber-800 px-2.5 py-1 rounded-lg border border-amber-200 font-bold">1-on-1 Tele-OT: ₹400</span>
+            <span class="bg-teal-50 text-teal-800 px-2.5 py-1 rounded-lg border border-teal-200 font-bold">1 Month (26 sessions): ₹3,000</span>
+            <span class="bg-purple-50 text-purple-800 px-2.5 py-1 rounded-lg border border-purple-200 font-bold">3 Month (78 sessions): ₹4,000</span>
+            <span class="bg-slate-100 text-slate-800 px-2.5 py-1 rounded-lg border border-slate-200 font-bold">Home Plan Only: ₹1,000</span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200/80">
+            <div class="flex items-start gap-4 pb-5 border-b border-slate-100">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-rose-500 to-amber-500 text-white flex items-center justify-center font-heading font-extrabold text-2xl shadow-md shrink-0">
+                DM
+              </div>
+              <div>
+                <div class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full mb-1">
+                  <span>✓ Verified Practitioner</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-xl text-slate-900">
+                  Dr. Muskan (OT)
+                </h2>
+                <p class="text-xs font-semibold text-rose-600">
+                  BOT, MOT (Neurosciences) • 5+ Yrs Experience
+                </p>
+                <div class="text-xs font-bold text-amber-500 mt-1">
+                  ★★★★★ <span class="text-slate-700 ml-1">4.98 • 1,250+ Sessions</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="py-5 space-y-3">
+              <span class="text-xs font-extrabold text-slate-900 uppercase tracking-wider block">
+                Clinical Focus Areas:
+              </span>
+              <div class="space-y-2.5 text-xs text-slate-700">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold">✓</span>
+                  <span><strong>Sensory Integration:</strong> Meltdowns, sound/texture sensitivity & stimming</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold">✓</span>
+                  <span><strong>Neurodevelopment:</strong> Autism, ADHD, focus & emotional regulation</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold">✓</span>
+                  <span><strong>Milestones & Motor:</strong> Crawling, walking balance & handwriting</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold">✓</span>
+                  <span><strong>Child-Led Therapy:</strong> 100% home play setup using everyday toys</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+              <span class="font-semibold text-slate-700">
+                Open Slots: <strong class="text-emerald-700 font-bold">Today / Tomorrow</strong>
+              </span>
+              <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="font-extrabold text-rose-600 hover:text-rose-700">
+                Book via Form →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section id="services" class="py-16 sm:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-rose-600 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
+          Pediatric Neuro-OT Programs
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+          Specialized Online Occupational Therapy Services
+        </h2>
+        <p class="text-base text-slate-600 mt-2">
+          Every program is customized using sensory neuroplasticity principles to empower your child's confidence, motor coordination, and daily independence.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-3xl bg-rose-50/40 border border-rose-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-rose-500 text-white flex items-center justify-center font-bold text-xl mb-4">SI</div>
+          <span class="text-[11px] font-bold text-rose-700 uppercase tracking-wider">Ages 1.5 – 12 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">Sensory Processing & Modulation (SPD)</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Helping sensory seekers (jumping, crashing, hand flapping) and avoiders (haircut panic, picky eating, loud sound fears) find nervous system regulation.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Reduced emotional meltdowns & calm daily routines
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-indigo-50/40 border border-indigo-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center font-bold text-xl mb-4">ASD</div>
+          <span class="text-[11px] font-bold text-indigo-700 uppercase tracking-wider">Ages 2 – 14 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">Autism & Neurodevelopmental Care</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Neuro-affirming, child-led play therapy focusing on joint attention, shared joy, self-regulation tools, and vestibular-proprioceptive circuits.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Enhanced communication, emotional calm & engagement
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-amber-50/40 border border-amber-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500 text-white flex items-center justify-center font-bold text-xl mb-4">MD</div>
+          <span class="text-[11px] font-bold text-amber-800 uppercase tracking-wider">Ages 6 Months – 6 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">Delayed Milestones & Gross Motor</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Targeted neuro-motor facilitation for delayed crawling, toe-walking, clumsy balance, low muscle tone (hypotonia), and postural control.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Confident climbing, balance & age-appropriate milestones
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-teal-50/40 border border-teal-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white flex items-center justify-center font-bold text-xl mb-4">HW</div>
+          <span class="text-[11px] font-bold text-teal-800 uppercase tracking-wider">Ages 4 – 12 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">Fine Motor & Handwriting Clinic</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Correcting inefficient pencil grips, hand muscle fatigue, mirror writing, buttoning difficulty, and scissor cutting coordination.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Pain-free, legible writing & independent schoolwork
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-purple-50/40 border border-purple-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-bold text-xl mb-4">ADHD</div>
+          <span class="text-[11px] font-bold text-purple-800 uppercase tracking-wider">Ages 3 – 12 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">ADHD, Attention & Self-Regulation</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Heavy work protocols, sensory seating adaptations, and executive functioning strategies for children who struggle to sit still or follow instructions.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Longer study attention span & better emotional control
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl bg-emerald-50/40 border border-emerald-200/80 shadow-xs">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-bold text-xl mb-4">FEED</div>
+          <span class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider">Ages 1 – 10 Years</span>
+          <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1 mb-2">Pediatric Feeding & Oral Sensory</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+            Gradual desensitization for extreme picky eaters, texture aversions, gagging on solid foods, pocketing food in cheeks, and oral motor weaknesses.
+          </p>
+          <div class="text-xs font-bold text-emerald-700 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200">
+            Outcome: Expanded diet variety & relaxed meal times
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Packages Section -->
+  <section id="packages" class="py-16 sm:py-24 bg-gradient-to-b from-amber-50/20 via-white to-rose-50/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-rose-600 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
+          Transparent Clinical Pricing
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 mt-2">
+          Consultation & Therapy Packages
+        </h2>
+        <p class="text-base text-slate-600 mt-2">
+          Clear, ethical pricing with no hidden charges. Book directly via Google Form or WhatsApp Dr. Muskan.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+        <!-- Tier 1: Video Consultation -->
+        <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-rose-600 bg-rose-50 px-2.5 py-0.5 rounded-md">1 Video Call</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Video Consultation</h3>
+            <div class="my-3 pb-3 border-b border-slate-100">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹800</span>
+              <span class="text-xs text-slate-500 font-semibold block">45–60 min deep clinical intake</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Comprehensive developmental history, sensory profiling, clinical observation, and immediate parent guidance roadmap.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Live child clinical observation</li>
+              <li>✓ Sensory & motor milestone screening</li>
+              <li>✓ Immediate behavioral recommendations</li>
+              <li>✓ 48-hr post-call WhatsApp query support</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold text-xs text-center block shadow-xs">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%20Video%20Consultation%20(₹800)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 2: 1-on-1 Guided Therapy -->
+        <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-md">Single Session</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">1 on 1 Tele-OT Therapy</h3>
+            <div class="my-3 pb-3 border-b border-slate-100">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹400</span>
+              <span class="text-xs text-slate-500 font-semibold block">40–45 min active video session</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Real-time interactive therapy where Dr. Muskan coaches parent and child through purposeful sensory-motor play exercises.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Direct 1-on-1 child video interaction</li>
+              <li>✓ Step-by-step parent coaching</li>
+              <li>✓ Exercises using household items</li>
+              <li>✓ Written daily home practice protocol</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold text-xs text-center block shadow-xs">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%201%20on%201%20Tele-OT%20Session%20(₹400)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 3: 1 Month Lite -->
+        <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-teal-700 bg-teal-50 px-2.5 py-0.5 rounded-md">12 Sessions</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">1 Month Package (Lite)</h3>
+            <div class="my-3 pb-3 border-b border-slate-100">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹2,500</span>
+              <span class="text-xs text-slate-500 font-semibold block">3 sessions/week for 4 weeks</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Ideal for mild milestone delays, focused handwriting intervention, or early sensory regulation starter routines.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ 12 scheduled 1-on-1 tele-therapy sessions</li>
+              <li>✓ Weekly progress tracking</li>
+              <li>✓ Customized sensory diet plan</li>
+              <li>✓ Direct WhatsApp guidance</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold text-xs text-center block shadow-xs">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%201%20Month%20Lite%20Package%20(₹2,500)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 4: 1 Month Regular (Most Popular) -->
+        <div class="p-6 rounded-3xl bg-amber-50/50 border-2 border-amber-400 shadow-md flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-5 bg-gradient-to-r from-rose-500 to-amber-500 text-white text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider">
+            Most Popular
+          </div>
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-md">26 Sessions</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">1 Month Package (Regular)</h3>
+            <div class="my-3 pb-3 border-b border-amber-200">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹3,000</span>
+              <span class="text-xs text-slate-600 font-semibold block">6 days/week intensive therapy</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              High-frequency sensory and motor rewiring. Excellent for autism therapy, speech-OT synergy, and intensive milestone catching.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ 26 one-on-one video therapy sessions</li>
+              <li>✓ Daily sensory diet modulation</li>
+              <li>✓ Priority WhatsApp voice-note support</li>
+              <li>✓ Comprehensive month-end assessment</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold text-xs text-center block shadow-md">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%201%20Month%20Regular%20Package%20(₹3,000)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 5: 3 Month Lite -->
+        <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-purple-700 bg-purple-50 px-2.5 py-0.5 rounded-md">36 Sessions</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">3 Month Package (Lite)</h3>
+            <div class="my-3 pb-3 border-b border-slate-100">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹3,500</span>
+              <span class="text-xs text-slate-500 font-semibold block">12 weeks continuous growth</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Structured medium-frequency protocol establishing neuro-plastic changes and steady developmental gains over a full quarter.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ 36 scheduled tele-sessions across 3 months</li>
+              <li>✓ Monthly reassessment & protocol upgrades</li>
+              <li>✓ Continuous parent coaching</li>
+              <li>✓ Official milestone completion certificate</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold text-xs text-center block shadow-xs">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%203%20Month%20Lite%20Package%20(₹3,500)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 6: 3 Month Regular (Best Value) -->
+        <div class="p-6 rounded-3xl bg-teal-50/40 border-2 border-teal-500 shadow-md flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-5 bg-gradient-to-r from-teal-600 to-emerald-600 text-white text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider">
+            Best Value
+          </div>
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-teal-900 bg-teal-100 px-2.5 py-0.5 rounded-md">78 Sessions</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">3 Month Package (Regular)</h3>
+            <div class="my-3 pb-3 border-b border-teal-200">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹4,000</span>
+              <span class="text-xs text-slate-600 font-semibold block">Full quarterly intensive (~₹51/session)</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              The gold-standard program for neurodevelopmental rehabilitation, severe sensory issues, autism, and long-term neuroplastic adaptation.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ 78 comprehensive tele-OT sessions</li>
+              <li>✓ Dedicated case management by Dr. Muskan</li>
+              <li>✓ Daily sensory diets & school IEP coordination</li>
+              <li>✓ Highest cost-effective clinical care in India</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 text-white font-bold text-xs text-center block shadow-md">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20book%20the%203%20Month%20Regular%20Package%20(₹4,000)." target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+        <!-- Tier 7: Only Home Plan -->
+        <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between md:col-span-2 lg:col-span-1 xl:col-span-2">
+          <div>
+            <span class="text-[11px] font-extrabold uppercase tracking-wider text-slate-700 bg-slate-100 px-2.5 py-0.5 rounded-md">Self-Paced Protocol</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Only Home Plan (No Sessions)</h3>
+            <div class="my-3 pb-3 border-b border-slate-100">
+              <span class="font-heading font-extrabold text-3xl text-slate-900">₹1,000</span>
+              <span class="text-xs text-slate-500 font-semibold block">One-time comprehensive PDF roadmap</span>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Perfect for self-motivated parents or families needing an evidence-based roadmap of sensory diets, motor drills, and calming sequences.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 mb-6">
+              <div>✓ 15-page custom therapeutic schedule</div>
+              <div>✓ Toy & equipment list from home items</div>
+              <div>✓ Milestone tracking checklists</div>
+              <div>✓ 1-week follow-up text review</div>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-3 rounded-xl bg-slate-900 text-white font-bold text-xs text-center block">
+              Book on Google Form
+            </a>
+            <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20want%20to%20order%20the%20Only%20Home%20Plan%20(₹1,000)." target="_blank" rel="noopener noreferrer" class="flex-1 py-2 px-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-xs text-center block">
+              WhatsApp Query
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas Section (All 14 Areas Requested) -->
+  <section id="service-areas" class="py-16 sm:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-rose-600 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
+          Local Coverage & Online Telehealth
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 mt-2">
+          Service Areas: Ghaziabad, Noida & NCR
+        </h2>
+        <p class="text-base text-slate-600 mt-2">
+          Providing specialized pediatric tele-rehabilitation, home sensory plans, and parent guidance across Ghaziabad and Delhi-NCR.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Ghaziabad (Central)</h4>
+          <p class="text-xs text-slate-500 mt-1">Old Bus Stand, Model Town & Nehru Nagar</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Ghaziabad%20Central" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Rajnagar RDC</h4>
+          <p class="text-xs text-slate-500 mt-1">Raj Nagar District Centre, Sector 14</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Rajnagar%20RDC" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Rajnagar Extension</h4>
+          <p class="text-xs text-slate-500 mt-1">River Heights, Officer City & Noor Nagar</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Rajnagar%20Extension" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Shastri Nagar</h4>
+          <p class="text-xs text-slate-500 mt-1">Blocks A to E, Central Market</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Shastri%20Nagar" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Kavi Nagar</h4>
+          <p class="text-xs text-slate-500 mt-1">Sector 1–5, Diamond Palace area</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Kavi%20Nagar" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-rose-600 uppercase">Ghaziabad Core</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Govindpuram</h4>
+          <p class="text-xs text-slate-500 mt-1">GDA Sectors, Harsaon & Chiranjeev Vihar</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Govindpuram" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-indigo-600 uppercase">Trans-Hindon</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Indirapuram</h4>
+          <p class="text-xs text-slate-500 mt-1">Ahinsa Khand, Vaibhav Khand, Shipra Sun City</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Indirapuram" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-indigo-600 uppercase">Trans-Hindon</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Kaushambi</h4>
+          <p class="text-xs text-slate-500 mt-1">Near Wave Mall, Metro Station & Anand Vihar</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Kaushambi" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-indigo-600 uppercase">Trans-Hindon</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Vaishali</h4>
+          <p class="text-xs text-slate-500 mt-1">Sectors 1 through 9, Mahagun Mall area</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Vaishali" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-indigo-600 uppercase">Trans-Hindon</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Sahibabad</h4>
+          <p class="text-xs text-slate-500 mt-1">Rajendra Nagar, Shyam Park & Shalimar Garden</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Sahibabad" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-teal-600 uppercase">Expressway & NH-24</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Crossing Republic</h4>
+          <p class="text-xs text-slate-500 mt-1">GH-7, Paramount Symphony & Panchsheel</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Crossing%20Republic" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-teal-600 uppercase">Expressway & NH-24</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Landcraft Golf Links NH-24</h4>
+          <p class="text-xs text-slate-500 mt-1">Wave City, Aditya World City corridor</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Landcraft%20Golf%20Links" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-purple-600 uppercase">Gautam Buddha Nagar</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Noida</h4>
+          <p class="text-xs text-slate-500 mt-1">Sectors 15, 18, 50, 62, 76, 137 & Expressway</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Noida" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50/30 border border-slate-200">
+          <span class="text-[10px] font-bold text-purple-600 uppercase">Gautam Buddha Nagar</span>
+          <h4 class="font-heading font-extrabold text-base text-slate-900">Greater Noida</h4>
+          <p class="text-xs text-slate-500 mt-1">Pari Chowk, Alpha, Beta, Delta & Noida Ext.</p>
+          <a href="https://wa.me/919810765977?text=Inquiry%20from%20Greater%20Noida" target="_blank" class="text-xs font-bold text-emerald-700 mt-3 inline-block">WhatsApp Slots →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinical Blogs Section (All 6 Topics Included) -->
+  <section id="blogs" class="py-16 sm:py-24 bg-gradient-to-b from-amber-50/20 via-white to-rose-50/30 border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-amber-800 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">
+          Clinical Neuro-OT Knowledge Hub
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 mt-2">
+          Pediatric Therapy & Parenting Articles
+        </h2>
+        <p class="text-base text-slate-600 mt-2">
+          Evidence-based clinical insights written by Dr. Muskan (BOT, MOT Neurosciences) to help parents understand sensory needs, autism, motor milestones, and emotional regulation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-rose-50 text-rose-700 px-2 py-0.5 rounded-md">Parent Coaching</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Signs Your Child May Need Occupational Therapy</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Early childhood red flags parents shouldn't ignore: extreme sensory meltdowns, avoiding playground climbing, picky eating, and difficulties with buttons or shoelaces.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-amber-50 text-xs text-amber-900">
+              <strong>Neuroscience Takeaway:</strong> Early sensory-motor neural connections rewire faster before age 7.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(1)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Signs%20Child%20Needs%20OT" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md">Autism & Neurodiversity</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Autism Therapy: A Sensory & Neurodiversity Approach</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Why traditional compliance-based training falls short, and how sensory regulation, respectful co-regulation, and play-based therapy unlock true connection.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-indigo-50 text-xs text-indigo-900">
+              <strong>Neuroscience Takeaway:</strong> Emotional safety in the limbic system must precede social and cognitive engagement.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(2)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Autism%20Therapy" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-amber-50 text-amber-800 px-2 py-0.5 rounded-md">Milestones</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Delayed Milestones in Children: When to Seek Guidance</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Understanding why crawling is vital for brain hemispheric communication, and what parents should do if walking, running, or utensil use is delayed.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-amber-50 text-xs text-amber-900">
+              <strong>Neuroscience Takeaway:</strong> Cross-lateral crawling builds the corpus callosum for future reading and math skills.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(3)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Delayed%20Milestones" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-teal-50 text-teal-800 px-2 py-0.5 rounded-md">Sensory Processing</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Hand Flapping in Kids: Sensory Need vs. Behavior</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Hand flapping is often a physiological regulation tool (stimming) providing proprioceptive feedback. Why you shouldn't suppress it without giving alternative sensory nourishment.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-teal-50 text-xs text-teal-900">
+              <strong>Neuroscience Takeaway:</strong> Stimming helps discharge excess electrical excitement in the nervous system.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(4)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Hand%20Flapping" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-purple-50 text-purple-800 px-2 py-0.5 rounded-md">ADHD & Focus</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">"My Child Cannot Sit Still" — Is It Normal?</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Why children fidget, wiggle, and hang upside down while studying: the connection between the vestibular system, core postural muscles, and sustained cognitive focus.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-purple-50 text-xs text-purple-900">
+              <strong>Neuroscience Takeaway:</strong> Movement stimulates the reticular activating system (RAS) to keep the brain awake.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(5)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Child%20Cannot%20Sit%20Still" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+        <article class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-wider bg-rose-50 text-rose-700 px-2 py-0.5 rounded-md">Sensory Processing</span>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-3">Sensory Processing Disorder (SPD): Parent Guide</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              A comprehensive clinical walkthrough explaining sensory over-responsivity, under-responsivity, sensory cravings, and how a customized sensory diet restores daily family calm.
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-rose-50 text-xs text-rose-900">
+              <strong>Neuroscience Takeaway:</strong> The brain can be trained through neuroplasticity to process sensory input with less fight-or-flight reactivity.
+            </div>
+          </div>
+          <div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="openArticleModal(6)" class="text-xs font-extrabold text-rose-600 hover:text-rose-700">Read Full Article →</button>
+            <a href="https://wa.me/919810765977?text=Hi%20Dr.%20Muskan,%20I%20read%20your%20blog%20on%20Sensory%20Processing%20Disorder" target="_blank" class="text-xs font-bold text-emerald-700">Ask Question</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Dr. Muskan Section -->
+  <section id="about" class="py-16 sm:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-5">
+          <div class="bg-gradient-to-br from-rose-50 via-amber-50 to-teal-50 rounded-3xl p-8 border border-amber-200/80 shadow-md text-center">
+            <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-rose-500 to-amber-500 text-white flex items-center justify-center font-heading font-extrabold text-3xl shadow-md mb-4">
+              DM
+            </div>
+            <h3 class="font-heading font-extrabold text-2xl text-slate-900">
+              Dr. Muskan (OT)
+            </h3>
+            <p class="text-sm font-bold text-rose-600 mt-1">
+              Consultant Pediatric Occupational Therapist
+            </p>
+            <p class="text-xs text-slate-600 font-semibold mt-0.5">
+              BOT • MOT (Neurosciences) • 5+ Years Experience
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-2 mt-4">
+              <span class="text-[11px] font-bold px-3 py-1 rounded-full bg-rose-100 text-rose-700">Sensory Integration</span>
+              <span class="text-[11px] font-bold px-3 py-1 rounded-full bg-purple-100 text-purple-700">Neurodevelopmental (NDT)</span>
+              <span class="text-[11px] font-bold px-3 py-1 rounded-full bg-amber-100 text-amber-800">Autism & ADHD Care</span>
+            </div>
+
+            <p class="text-xs text-slate-600 mt-5 pt-4 border-t border-amber-200/60 leading-relaxed font-medium">
+              “Every child’s brain has immense capacity to adapt when therapy honors their natural sensory threshold and turns therapy into joyful play.”
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6">
+          <span class="text-xs font-extrabold uppercase tracking-wider text-purple-800 bg-purple-100 px-3 py-1 rounded-full">
+            Meet Your Pediatric Neuro-OT
+          </span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-snug">
+            Compassionate, Science-Driven Therapy for Every Unique Nervous System
+          </h2>
+          <p class="text-base text-slate-600 leading-relaxed">
+            Hello! I am <strong>Dr. Muskan (OT)</strong>. Over the past <strong>5+ years</strong>, I have worked with hundreds of remarkable children and their families. 
+            My clinical approach is grounded in my dual qualifications: a <strong>Bachelor in Occupational Therapy (BOT)</strong> combined with an advanced <strong>Master in Neuroscience (MOT)</strong>.
+          </p>
+          <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Rather than treating symptoms in isolation, my neuroscience training allows me to look at how your child’s brain receives, filters, and interprets sensory information from the world. Whether it’s sensory overload in supermarkets, handwriting fatigue in school, or delayed motor milestones, we formulate joyful play-based interventions that stimulate true neural rewiring.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 bg-gradient-to-r from-rose-500 to-amber-500 text-white font-bold rounded-xl shadow-md text-sm">
+              Schedule Consultation
+            </a>
+            <a href="https://wa.me/919810765977" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold rounded-xl text-sm">
+              Chat on WhatsApp (9810765977)
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-16 sm:py-24 bg-gradient-to-b from-amber-50/20 via-white to-white border-t border-slate-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-purple-800 bg-purple-100 px-3 py-1 rounded-full">
+          Frequently Asked Questions
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+          Questions About Online Pediatric OT?
+        </h2>
+        <p class="text-base text-slate-600 mt-2">
+          Everything you need to know about preparing for your video consultation, our neuroscience-backed methods, and home equipment.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <details class="p-5 rounded-2xl bg-white border border-slate-200 group">
+          <summary class="font-heading font-extrabold text-base text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            <span>Can pediatric occupational therapy truly be effective online over video?</span>
+            <span class="text-rose-500 font-bold group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed border-t border-slate-100 pt-3">
+            Yes, studies show tele-occupational therapy achieves equal or higher parental adherence compared to in-clinic therapy. Children are relaxed in their natural environment without clinic fear, and parents learn the direct handling techniques to support their child 24/7.
+          </p>
+        </details>
+
+        <details class="p-5 rounded-2xl bg-white border border-slate-200 group">
+          <summary class="font-heading font-extrabold text-base text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            <span>Do I need special sensory therapy equipment at home?</span>
+            <span class="text-rose-500 font-bold group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed border-t border-slate-100 pt-3">
+            Not at all! We intentionally use everyday household objects—pillows, sofa cushions, bedsheets for vestibular swings, heavy laundry baskets for proprioceptive work, and kitchen spices/pulses for tactile exploration.
+          </p>
+        </details>
+
+        <details class="p-5 rounded-2xl bg-white border border-slate-200 group">
+          <summary class="font-heading font-extrabold text-base text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            <span>How do I book a consultation and pay?</span>
+            <span class="text-rose-500 font-bold group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed border-t border-slate-100 pt-3">
+            Simply fill out our official <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" class="text-rose-600 underline font-bold" target="_blank">Google Booking Form</a> or message Dr. Muskan on WhatsApp at <a href="https://wa.me/919810765977" class="text-emerald-700 underline font-bold" target="_blank">+91 9810765977</a>. We will confirm your preferred time slot and share UPI / NetBanking payment details.
+          </p>
+        </details>
+
+        <details class="p-5 rounded-2xl bg-white border border-slate-200 group">
+          <summary class="font-heading font-extrabold text-base text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            <span>What if my child refuses to look at the screen or run away?</span>
+            <span class="text-rose-500 font-bold group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed border-t border-slate-100 pt-3">
+            We never force a child to stare at a screen! Tele-OT is parent-guided. Dr. Muskan watches your child play naturally in the background and instructs you in real time on how to position, engage, and modulate the activity.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer Section -->
+  <footer class="bg-slate-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 pb-12 border-b border-slate-800">
+        
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-rose-500 text-white flex items-center justify-center font-heading font-bold text-lg">
+              DM
+            </div>
+            <div>
+              <span class="font-heading font-bold text-lg text-white block">Dr. Muskan (OT)</span>
+              <span class="text-xs text-slate-400">Pediatric Neuro-OT Consultant</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Evidence-based online pediatric occupational therapy, sensory integration, autism therapy, and milestone coaching.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-sm text-white mb-4">Direct Contact</h4>
+          <ul class="text-xs text-slate-300 space-y-2.5">
+            <li><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/919810765977" target="_blank" class="text-emerald-400 hover:underline">+91 9810765977</a></li>
+            <li><strong>Google Form:</strong> <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" class="text-rose-400 hover:underline">forms.gle/5MMU9g6Nw4HrLRpd7</a></li>
+            <li><strong>Consultation Mode:</strong> 1-on-1 Live Video (Google Meet / Zoom / WhatsApp)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-sm text-white mb-4">Social Handles</h4>
+          <ul class="text-xs text-slate-300 space-y-2.5">
+            <li>
+              <a href="https://www.instagram.com/theneuroot.muskan?igsh=MW1kYzZ6bTVja2Zhag==" target="_blank" rel="noopener noreferrer" class="text-pink-400 hover:underline block">
+                Instagram: @theneuroot.muskan
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com/@theneuroot.muskan?si=TvSB9oTRVSnX54U0" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:underline block">
+                YouTube: @theneuroot.muskan
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-sm text-white mb-4">Primary Coverage Areas</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Ghaziabad, Raj Nagar Extension, RDC, Indirapuram, Vaishali, Kaushambi, Shastri Nagar, Kavi Nagar, Govindpuram, Noida, Greater Noida, Crossing Republic & Landcraft Golf Links NH-24.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>© 2026 Dr. Muskan (BOT, MOT Neurosciences). All rights reserved.</p>
+        <p>Medical Disclaimer: Online tele-consultation provides developmental and sensory coaching guidance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Full Article Reading -->
+  <div id="articleModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 sm:p-8 relative shadow-2xl">
+      <button onclick="closeArticleModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 text-slate-600 font-bold flex items-center justify-center hover:bg-slate-200">
+        ✕
+      </button>
+      <div id="articleModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
   </div>
-</section>
 
+  <script>
+    const articles = {
+      1: {
+        title: "Signs Your Child May Need Occupational Therapy",
+        category: "Parent Coaching • 5 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>As parents, we frequently wonder whether our child’s challenges with daily routines—such as crying during baths, falling frequently, refusing to hold a crayon, or having intense meltdowns in crowded malls—are simply phases or signs of sensory-motor difficulties.</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>Common Clinical Signs:</h4><ul class='list-disc pl-5 text-slate-700 space-y-1 text-xs sm:text-sm'><li><strong>Sensory Modulation Difficulties:</strong> Extreme distress during haircuts, nail trimming, seam tags on socks, or intense noise reactions.</li><li><strong>Gross Motor & Balance Issues:</strong> Frequent tripping, avoiding playground climbing ladders, or delayed hopping.</li><li><strong>Fine Motor & Self-Care Fatigue:</strong> Struggling with spoons, buttoning shirts, pencil grip weakness, or hand fatigue while writing.</li><li><strong>Emotional Dysregulation:</strong> Tantrums lasting longer than 20 minutes when transitioning between simple tasks.</li></ul><p class='mt-4 text-slate-700 leading-relaxed'>Consulting an occupational therapist early allows us to leverage peak neuroplasticity before learned compensations and frustration take root.</p>"
+      },
+      2: {
+        title: "Autism Therapy: A Sensory & Neurodiversity Approach",
+        category: "Autism & Neurodiversity • 7 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>For decades, conventional approaches to autism focused on compliance and stopping stimming behaviors. Modern neuroscience and neuro-occupational therapy take a respectful, neuro-affirming route: honoring the autistic brain’s unique sensory processing style.</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>Key Elements of our Tele-OT Autism Approach:</h4><ul class='list-disc pl-5 text-slate-700 space-y-1 text-xs sm:text-sm'><li><strong>Sensory Diet as Pre-requisite:</strong> A child in sensory fight-or-flight cannot learn. We calm the autonomic nervous system first using deep pressure, linear rocking, and predictable visual environments.</li><li><strong>Child-Led Play Therapy:</strong> We join the child in their area of interest (trains, spinning wheels, colors) to build natural shared attention and emotional joy.</li><li><strong>Parent as Primary Co-Regulator:</strong> You learn peaceful vocal tones, gentle touch cues, and home environmental modifications that prevent sensory overstimulation.</li></ul>"
+      },
+      3: {
+        title: "Delayed Milestones in Children: When to Seek Guidance",
+        category: "Milestones • 6 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>Every child develops at their own unique pace, but motor milestones serve as vital neurological checkpoints. When milestones are significantly delayed, it can create a cascading effect on future posture, coordination, and school confidence.</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>Why Crawling Matters:</h4><p class='text-slate-700 text-xs sm:text-sm mb-3'>Many parents are told 'it is fine if your baby skipped crawling and went straight to walking.' However, cross-lateral crawling integrates the left and right cerebral hemispheres across the corpus callosum, develops shoulder stability for writing, and builds hand arch strength.</p><p class='text-slate-700 text-xs sm:text-sm'>If your child is toe-walking, struggling to sit independently by 8 months, or avoiding stair climbing by 2.5 years, a video consultation can pinpoint underlying low muscle tone or retained primitive reflexes.</p>"
+      },
+      4: {
+        title: "Hand Flapping in Kids: Sensory Need vs. Behavior",
+        category: "Sensory Processing • 5 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>Seeing a child flap their hands when excited or overwhelmed often worries parents. In pediatric neuroscience, hand flapping is recognized as a form of self-regulatory stimming (self-stimulatory behavior).</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>Why Children Flap:</h4><ul class='list-disc pl-5 text-slate-700 space-y-1 text-xs sm:text-sm'><li><strong>Proprioceptive Feedback:</strong> Rapid joint movement stimulates proprioceptors in the wrists and fingers, sending calming signals to an aroused brain stem.</li><li><strong>Discharging High Emotional Energy:</strong> Intense joy or stress generates electrical excitation that the motor cortex releases through rapid rhythmic movement.</li></ul><p class='mt-3 text-slate-700 leading-relaxed'>We do not suppress hand flapping! Instead, we teach children alternative heavy-work inputs (squeezing putty, wall pushes, bear hugs) so they have an expanded sensory toolkit.</p>"
+      },
+      5: {
+        title: "'My Child Cannot Sit Still' — Is It Normal?",
+        category: "ADHD & Focus • 6 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>'He refuses to sit at the study table for even 5 minutes!' is one of the most frequent concerns parents share. From a neurobiological perspective, asking a child with an under-stimulated vestibular or proprioceptive system to sit still is like asking someone to read while riding a roller coaster.</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>Therapeutic Solutions:</h4><ul class='list-disc pl-5 text-slate-700 space-y-1 text-xs sm:text-sm'><li><strong>Dynamic Seating:</strong> Using therapy balls, wobble cushions, or resistance bands across chair legs to allow subtle movement while writing.</li><li><strong>Sensory Movement Breaks:</strong> 3 minutes of wall pushups or animal walks before sitting down to read.</li><li><strong>Core Strengthening:</strong> Often, children who slouch or lie on the desk have low endurance in their spinal extensor muscles, not poor discipline.</li></ul>"
+      },
+      6: {
+        title: "Sensory Processing Disorder (SPD): Complete Parent Guide",
+        category: "Sensory Processing • 8 min read",
+        text: "<p class='mb-3 text-slate-700 leading-relaxed'>Sensory Processing Disorder occurs when the central nervous system has trouble receiving and responding to information that comes in through the 8 sensory systems: tactile, auditory, visual, olfactory, gustatory, vestibular, proprioceptive, and interoception.</p><h4 class='font-bold text-slate-900 mt-4 mb-2'>The 3 Common Presentations:</h4><ul class='list-disc pl-5 text-slate-700 space-y-1 text-xs sm:text-sm'><li><strong>Sensory Over-Responsive (Hypersensitive):</strong> Fight-or-flight panic with loud blenders, sticky textures, or clothing tags.</li><li><strong>Sensory Under-Responsive (Hyposensitive):</strong> High pain tolerance, unaware of food around the mouth, seeming lethargic.</li><li><strong>Sensory Craver:</strong> Constantly crashing into couches, spinning, touching everything, and making loud vocal sounds.</li></ul><p class='mt-4 text-slate-700 leading-relaxed'>Through an individualized Sensory Diet created by Dr. Muskan, we provide the exact neurological inputs needed to achieve balanced calm and optimal daily functioning.</p>"
+      }
+    };
 
-<!-- WHY CHOOSE -->
-<section class="section">
-  <h2>Why Choose My Online OT Services?</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Child-Centric Approach</h3>
-      <p>Therapy sessions designed according to each child’s individual needs.</p>
-      <h3>Occupational Therapy in Ghaziabad</h3>
-      <h4>Personalized occupational therapy services to help children improve daily living skills.</h4>
-      </div>
-      <div class="card">
-      <h3>Parent Guidance</h3>
-      <p>Parents are trained to continue therapy activities at home.</p>
-      <h3>Online Occupational Therapy in Ghaziabad</h3>    
-      <h4>Convenient and effective online therapy sessions from the comfort of your home.</h4>
-      </div>
-      <div class="card">
-      <h3>Evidence-Based Practice</h3>
-      <p>Use of scientifically proven occupational therapy techniques.</p>
-      <h3>Online Occupational Therapy in Indirapuram</h3>
-      <h4>Expert occupational therapists providing online support for children in Indirapuram.</h4>
-      <h3>Online Occupational Therapy for Child in Vaishali, Ghaziabad</h3>
-      <h4>Specialized online occupational therapy programs designed specifically for children.</h4>
-      </div>
-     </div>
-</section>
-  <section style="margin:40px 0; text-align:center;">
-  <h2>Helpful Resources for Parents</h2>
-    <div class="blog-section">
-  <p>Read our latest blog to understand your child’s needs better.</p>
-   
-    
-    <a href="online-occupational-therapy-for-children.html">
-  Online Occupational Therapy for Children
-</a>
+    function openArticleModal(id) {
+      const art = articles[id];
+      if (!art) return;
+      document.getElementById('articleModalContent').innerHTML = `
+        <span class="text-xs font-bold text-rose-600 uppercase tracking-wider block mb-2">${art.category}</span>
+        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4">${art.title}</h3>
+        <div class="text-sm text-slate-700 leading-relaxed">${art.text}</div>
+        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+          <a href="https://forms.gle/5MMU9g6Nw4HrLRpd7" target="_blank" class="px-4 py-2 bg-rose-500 hover:bg-rose-600 text-white text-xs font-bold rounded-xl shadow-xs">Book Consultation</a>
+          <a href="https://wa.me/919810765977?text=Hello%20Dr.%20Muskan,%20I%20have%20a%20question%20about%20${encodeURIComponent(art.title)}" target="_blank" class="px-4 py-2 bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold rounded-xl">Ask on WhatsApp</a>
+        </div>
+      `;
+      document.getElementById('articleModal').classList.remove('hidden');
+    }
 
-
-  <a href="blog/signs-your-child-needs-occupational-therapy.html"
-     style="display:inline-block; padding:12px 20px; background:#4CAF50; color:#fff; text-decoration:none; border-radius:8px;">
-     Read: Signs Your Child May Need Occupational Therapy
-  </a>
-
-   <a href="blog/blog-autism-ot.html" 
-   style="display:inline-block; margin:10px; padding:10px 15px; background:#1a73e8; color:white; text-decoration:none; border-radius:6px;">
-   Read Autism Therapy Blog
-</a>
-    
-  <h2>Latest Blog</h2>
-      <a href="https://muskanot.github.io/sensory-therapy-online-/blog/delayedmilestones.html">Read our blog</a>
-  Read Blog: Delayed Milestones in Children
-</a>
-      <div class="blog-card">
-    <h3>Hand Flapping in Kids - A Parent's Guide</h3>
-    <p>Is your child's hand flapping a concern? Learn why it happens and how occupational therapy helps.</p>
-    <a href="https://muskanot.github.io/sensory-therapy-online-/blog/hand flapping.html">Read our blog</a>
-</div>
-
-  <div class="blog-card">
-    <h3>My Child Cannot Sit Still – Is It Normal?</h3>
-    <p>Is your child always moving? Learn what is normal and when to worry.</p>
-    
-    <a href="blog/child-cannot-sit-still.html">Read More →</a>
-    <p>
-Want to understand sensory issues? 
-<a href="blog/spd-and-its-signs.html">Read our blog on sensory processing disorder</a>
-</p>
-  </div>
-</div>
-    </section>
-
-<!-- FOOTER -->
-<footer>
-  <div style="text-align:center; margin: 30px 0;">
-  <p style="font-size:16px;">Connect with me on LinkedIn</p>
-  <a href="https://www.linkedin.com/in/muskan-saini-85656321a/" target="_blank"
-     style="text-decoration:none; color:#0A66C2; font-weight:600;">
-    🔗 View My LinkedIn Profile
-  </a>
-    <a href="https://www.instagram.com/theneuroot.muskan/"
-   target="_blank"
-   class="instagram-float">
-
-   <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-        alt="Instagram"
-        style="width:20px; vertical-align:middle; margin-right:8px;">
-
-   Follow on Instagram
-</a>
-    <div style="margin-top:15px;">
-  <p style="font-size:16px;">Follow us on Instagram</p>
-
-  <a href="https://www.instagram.com/theneuroot.muskan?igsh=MW1kYzZ6bTVja2Zhag" target="_blank"
-     style="text-decoration:none; color:#E1306C; font-weight:600;">
-     📸 @theneuroot.muskan
-  </a>
-</div>
-</div>
-
-  <p>
-  <a href="online-occupational-therapy-ghaziabad-noida.html" style="color:#ffffff; text-decoration:none;">
-    Online Occupational Therapy in Ghaziabad & Noida
-  </a>
-</p>
-
-  © 2025 Online Occupational Therapy | All Rights Reserved
-</footer>
-
-
-
+    function closeArticleModal() {
+      document.getElementById('articleModal').classList.add('hidden');
+    }
+  </script>
 </body>
 </html>
